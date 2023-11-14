@@ -16,7 +16,7 @@ def init():
         page_title="Workshop: Building & Deploying AI Powered Chabots 👋"
     )
  
-    st.header("<Name>'s Personal Chabot! 🤖")
+    st.header("Natalie's Personal Chabot! 🤖")
     with st.sidebar:
       youropenaikey = st.text_input("OpenAI API Key", key="youropenaitoken", type="password")    
  
